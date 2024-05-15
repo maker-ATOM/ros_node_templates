@@ -1,0 +1,17 @@
+<package format="2">
+
+<name>roscpp_template</name>
+<version>1.0.0</version>
+<description>Package which holds template for ROS Node in cpp</description>
+
+<maintainer email="patiladitya1309@gmail.com">aditya</maintainer>
+<license>MIT</license>
+<url type="website">https://www.linkedin.com/in/aditya-patil-13207b201/</url>
+
+<buildtool_depend>catkin</buildtool_depend>
+<build_depend>roscpp</build_depend>
+<build_export_depend>roscpp</build_export_depend>
+<exec_depend>roscpp</exec_depend>
+<export></export>
+
+</package>
