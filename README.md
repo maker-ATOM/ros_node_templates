@@ -27,6 +27,9 @@ Paste the snippets in your and replace placeholders within your favorite editor.
 - `timer_instance`: timer instance to setup timer.
 - `transform_instance`:  instance to hold the infomation about transform to be published
 - `broadcaster_instance`: instance for your broadcaster
+- `server_instance`: isntance to defien server
+- `rossrv_package`: Package which defines the rossrv
+- `service_callback`
 
 ---
  
@@ -38,12 +41,12 @@ Find something missing? consider creating a issue.
 - [ ] cmake.xml
 - [x] Pub
 - [x] Sub
-- [ ] Srv client
-- [ ] srv 
+- [x] Srv client
+- [x] srv 
 - [ ] Action srv
 - [ ] action client
 - [x] Wall timer
 - [x] static
 - [x] tf broadcasr
-- [ ] tf listner
+- [x] tf listner
 - [ ] arrange placeholders cronologically -->
