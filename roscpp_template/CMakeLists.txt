@@ -12,15 +12,8 @@ include_directories(
 
 catkin_package()
 
-add_executable(subscriber src/server.cpp)
+add_executable(<executable> src/<executable>.cpp)
 
-target_link_libraries(subscriber
-  ${catkin_LIBRARIES}
-)
-
-
-add_executable(dsubscriber src/client.cpp)
-
-target_link_libraries(dsubscriber
+target_link_libraries(<executable>
   ${catkin_LIBRARIES}
 )
